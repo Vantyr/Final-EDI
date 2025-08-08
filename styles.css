@@ -353,6 +353,15 @@ body::after {
   color: #333;
 }
 
+.nav-links li {
+  border-left: 2px solid red;
+  padding: 0 5px;
+}
+
+.nav-links li:first-child {
+  border-left: none; 
+}
+
 
 
   @media (max-width: 768px) {
@@ -376,6 +385,23 @@ body::after {
   }
 }
 
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+  }
+
+  .nav-links li {
+    border-left: none;
+    border-top: 1px solid white; 
+    width: 90%;
+    text-align: center;
+    padding: 15px 0;
+  }
+
+  .nav-links li:first-child {
+    border-top: none;
+  }
+}
 
 
 @media (max-width: 768px) {
@@ -411,6 +437,8 @@ body::after {
   section {
     padding: 20px 10px;
   }
+
+  
 }
 
 
