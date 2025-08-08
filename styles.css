@@ -140,7 +140,7 @@ table, th, td {
 }
 
 th {
-  background-color: #f0f0f0;
+  background-color: rgb(245, 163, 163);
   padding: 10px;
 }
 
@@ -330,7 +330,30 @@ body::after {
     right: 10px;
   }
 
-  
+  .historia-fondo {
+  background: linear-gradient(to right, #ffffff, #ffeaea);
+  padding: 60px 20px;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 60px auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.historia-fondo h2 {
+  font-size: 28px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.historia-fondo p {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
+  color: #333;
+}
+
+
 
   @media (max-width: 768px) {
     .imagen-carousel {
@@ -389,5 +412,7 @@ body::after {
     padding: 20px 10px;
   }
 }
+
+
 
 }
