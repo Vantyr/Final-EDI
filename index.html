@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sociedad de Fomento Villa Talleres</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#inicio"><img src="./img/logo.png" alt="Logo" /></a>
+      </div>
+      <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#historia">Historia</a></li>
+        <li><a href="#noticias">Noticias</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#actividades">Actividades</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="contenedor">
+      <section id="inicio">
+        <h1>Club Social Unión Villa Talleres</h1>
+        <img src="./img/fachada.jpg" alt="Fachada del club" />
+      </section>
+
+      <div class="separator"></div>
+
+      <section id="historia">
+        <h2>Historia</h2>
+        <p>En 1885, dos ferrocarriles se instalaron en Junín: el Ferrocarril Central Argentino y el Ferrocarril B.A.P., este último radicó en 1886 enormes talleres. Esta circunstancia fue decisiva en la transformación urbanística y demográfica de la ciudad. La población se incrementó alimentada por la inmigración, ello se vio reflejado en el resto de las actividades industriales, comerciales y de servicios.
+            De esta manera, a principios del siglo XX, la ciudad, cruzada por los dos ferrocarriles, casi paralelos, tuvo tres focos que actuaron casi como áreas independientes: el Junín fundacional o área del Fuerte; el Pueblo Nuevo y Villa Belgrano, tras las vías, que concentró el núcleo habitacional de los obreros de los talleres.
+            Debido al permanente aumento de la población por causas migratorias y vege-tativas, el crecimiento urbano fue más allá de los límites del barrio Belgrano, hacia el noreste. Surgieron entonces y se individua-lizaron otros barrios, donde el loteo urbano fue el elemento que amplió la cuadrícula central.
+            El barrio “Villa Talleres”, con origen en loteos no precisados entre 1904 y 1917, se extendió en cuadrícula hacia el noreste del barrio Belgrano, del que se halla separado por la calle Primera Junta y linda con los terrenos adquiridos para almacenes y ampliaciones futuras de los talleres del ferrocarril BAP, al noreste con la calle Tucumán y su extremo norte es la avenida República.
+            Estuvo poblado por ferroviarios, obreros de los talleres, de donde tomó su denominación. Poseía en sus inicios una densidad de edificación baja, con numerosos baldíos, e incluso quintas. Sus calles, angostas y cortadas en ángulo brusco, recibieron denominación por ordenanza en el año 1917.
+        </p>
+      </section>
+
+      <div class="separator"></div>
+
+      <section id="noticias">
+  <h2>Noticias</h2>
+  <div class="noticias-grid">
+
+    <a class="noticia-card" href="reductores.html">
+      <img src="./img/reductor.png" alt="Reductores de velocidad" />
+      <h3>Reductores de velocidad</h3>
+    </a>
+
+    <a class="noticia-card" href="encuentro.html">
+      <img src="./img/reunion.png" alt="Encuentro barrial" />
+      <h3>Social Villa Talleres: Punto de encuentro</h3>
+    </a>
+
+    <a class="noticia-card" href="talleres.html">
+      <img src="./img/taller.jpg" alt="Talleres recreativos" />
+      <h3>Nuevos talleres recreativos</h3>
+    </a>
+
+    <a class="noticia-card" href="iluminacion.html">
+      <img src="./img/iluminacion.png" alt="Falta de luminarias" />
+      <h3>Falta de iluminación LED</h3>
+    </a>
+
+  </div>
+</section>
+
+      <div class="separator"></div>
+
+      <section id="galeria">
+        <h2>Galería</h2>
+        <div class="carousel-container">
+          <button class="arrow left" onclick="moverCarrusel(-1)">&#10094;</button>
+          <div class="carousel">
+            <img src="img/galeria1.jpg" class="imagen-carousel" />
+            <img src="img/galeria2.jpg" class="imagen-carousel" />
+            <img src="img/galeria3.jpg" class="imagen-carousel" />
+          </div>
+          <button class="arrow right" onclick="moverCarrusel(1)">&#10095;</button>
+        </div>
+</section>
+</section>
+
+      <div class="separator"></div>
+
+      <section id="actividades">
+        <h2>Actividades</h2>
+        <table>
+          <tr>
+            <th>Actividad</th>
+            <th>Día y Hora</th>
+            <th>Profesor/a</th>
+          </tr>
+          <tr>
+            <td>Costura</td>
+            <td>Lunes - 18 hs</td>
+            <td>Norma Aguirre</td>
+          </tr>
+          <tr>
+            <td>Tejido</td>
+            <td>Martes - 18 hs</td>
+            <td>Norma Aguirre</td>
+          </tr>
+          <tr>
+            <td>Reciclaje</td>
+            <td>Jueves - 18 hs</td>
+            <td>Agustina Arias</td>
+          </tr>
+          <tr>
+            <td>Pintura</td>
+            <td>Viernes - 18 hs</td>
+            <td>Andrea Lobosco</td>
+          </tr>
+        </table>
+      </section>
+
+      <div class="separator"></div>
+
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <p><strong>Dirección:</strong> Jean Jaures y Laprida, Junín, Buenos Aires</p>
+        <p><strong>Alquiler del lugar:</strong> 2364502106 - Alfredo Martínez</p>
+        <p><strong>Inscripción a actividades:</strong> 2364365961 - Norma Aguirre</p>
+        <iframe
+          src="https://maps.google.com/maps?q=Jean%20Jaures%20y%20Laprida,%20Junin&t=&z=15&ie=UTF8&iwloc=&output=embed"
+          width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>© Sociedad de Fomento Villa Talleres</p>
+    <a href="https://www.facebook.com/profile.php?id=100079460453433"><img src="img/facebook.png" class="Facebook" /></a>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('active');
+    });
+
+    let indiceActual = 0;
+  const imagenes = [
+    "img/galeria1.jpg",
+    "img/galeria2.jpg",
+    "img/galeria3.jpg",
+    "img/galeria4.jpg",
+    "img/galeria5.jpg",
+    "img/galeria6.jpg",
+    "img/galeria7.jpg",
+    "img/galeria8.jpg",
+    "img/galeria9.jpg",
+    "img/galeria10.jpg"
+  ];
+
+  function moverCarrusel(direccion) {
+    indiceActual += direccion;
+    if (indiceActual < 0) indiceActual = imagenes.length - 3;
+    if (indiceActual > imagenes.length - 3) indiceActual = 0;
+
+    const carousel = document.querySelector(".carousel");
+    carousel.innerHTML = `
+      <img src="${imagenes[indiceActual]}" class="imagen-carousel" />
+      <img src="${imagenes[indiceActual + 1]}" class="imagen-carousel" />
+      <img src="${imagenes[indiceActual + 2]}" class="imagen-carousel" />
+    `;
+  }
+  document.addEventListener('DOMContentLoaded', mostrarImagenes);
+  </script>
+  <script>
+  const secciones = document.querySelectorAll("section[id]");
+  const links = document.querySelectorAll(".nav-links a");
+
+  const observer = new IntersectionObserver(
+    (entradas) => {
+      entradas.forEach((entrada) => {
+        const id = entrada.target.getAttribute("id");
+        const link = document.querySelector(`.nav-links a[href="#${id}"]`);
+
+        if (entrada.isIntersecting) {
+          links.forEach((l) => l.classList.remove("activo"));
+          link.classList.add("activo");
+        }
+      });
+    },
+    {
+      rootMargin: "-60% 0px -39% 0px", // Detecta el centro aproximado de la sección
+      threshold: 0.1,
+    }
+  );
+
+  secciones.forEach((section) => observer.observe(section));
+</script>
+</body>
+</html>

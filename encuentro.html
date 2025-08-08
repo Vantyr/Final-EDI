@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reductores de velocidad</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="index.html#inicio"><img src="./img/logo.png" alt="Logo" /></a>
+      </div>
+      <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html#inicio">Inicio</a></li>
+        <li><a href="index.html#historia">Historia</a></li>
+        <li><a href="index.html#noticias">Noticias</a></li>
+        <li><a href="index.html#galeria">Galería</a></li>
+        <li><a href="index.html#actividades">Actividades</a></li>
+        <li><a href="index.html#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="noticia-individual">
+      <h1>Un punto de encuentro</h1>
+      <img src="./img/reunion.png" alt="Reunion familiar">
+      <p>Los clubes de barrio tienen su historia. Durante décadas han sido un punto de encuentro para miles de personas, de familias, de generaciones que han establecido vínculos eternos en estos espacios. Por eso los clubes son importantes, porque aportan condimentos esenciales que pueden mejorar la calidad de vida de las personas</p>
+      <a class="volver" href="index.html#noticias">← Volver a Noticias</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© Sociedad de Fomento Villa Talleres</p>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
