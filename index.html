@@ -152,6 +152,12 @@
       nav.classList.toggle('active');
     });
 
+    document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', () => {
+        nav.classList.remove('active');
+      });
+    });
+
     let indiceActual = 0;
   const imagenes = [
     "img/galeria1.jpg",

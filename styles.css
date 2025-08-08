@@ -359,7 +359,7 @@ body::after {
   .nav-links {
     display: none;
     flex-direction: column;
-    background-color: #f7f7f7;
+    background-color: rgba(0, 0, 0, 0.95); 
     position: absolute;
     top: 120px;
     right: 0;
@@ -367,8 +367,14 @@ body::after {
     padding: 20px;
   }
 
+  .nav-links a {
+    color: white; 
+  }
+
   .nav-links.active {
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .menu-toggle {
